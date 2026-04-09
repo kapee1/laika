@@ -14,7 +14,8 @@
 * MX hotswap
 * Split spacebar support (2 × 3u or 1 x 6u)
 * Two plate options: Standard and Extra 
-* Optional top weight 
+* Top mount with o-rings
+* The two halves of the case and top weight are held together by magnets
 * VIAL / QMK firmware
 
 ---
@@ -44,6 +45,9 @@
 | M2 screws x 4 mm | 10 |
 | M2 inserts | 8 |
 | Rubber feet 3M SJ5302 (8x8x2) | 4 |
+| Magnets 5x3 | 14 |
+| Magnets 5x1 | 4 |
+| Silicone o-rings 5x2 | 8 |
 
 ---
 
