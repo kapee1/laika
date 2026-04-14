@@ -1,7 +1,7 @@
-# Laika
+# Laika - 45%-ish v4n4g0n-inspired keyboard  
 
-<!-- Replace with actual photo -->
-![Laika keyboard](https://github.com/user-attachments/assets/placeholder)
+![Untitled](https://github.com/user-attachments/assets/f81c8a55-02ba-4c5f-8245-b44c9089d1cf)
+
 
 ### Build guide — *coming soon*
 
@@ -9,30 +9,21 @@
 
 ### Main features:
 
-* Custom compact layout — 53 keys
+* Custom compact layout — 47 keys + half of number row
 * Waveshare RP2040-Zero MCU
-* MX hotswap sockets — supports Cherry MX and compatible switches
-* Split spacebar support (2× 3u)
-* SMD 1N4148W diodes (SOD-123) — no through-hole soldering
-* Two plate options: Standard and Extra
-* Optional top weight for extra heft and feel
+* MX hotswap
+* Split spacebar support (2 × 3u or 1 x 6u)
+* Two plate options: Standard and Extra 
+* Top mount with o-rings
+* The two halves of the case and top weight are held together by magnets
 * VIAL / QMK firmware
 
 ---
 
 ### Layout:
 
-<!-- Replace with actual layout image, e.g. from keyboard-layout-editor.com -->
-![Layout](https://github.com/user-attachments/assets/placeholder-layout)
+![laika](https://github.com/user-attachments/assets/21be6c17-021e-478e-86d0-d041be580dcc)
 
----
-
-### Sizes:
-
-| Parameter | Value |
-|-----------|-------|
-| PCB size  | 257.2 × 100.2 mm |
-| Plate options | Standard, Extra |
 
 ---
 
@@ -44,18 +35,19 @@
 | Laika Case Top | 1 |
 | Laika Case Bottom | 1 |
 | Laika Plate (Standard or Extra) | 1 |
-| Top Weight (optional) | 1 |
+| Top Weight | 1 |
 | Battery Cover (optional) | 1 |
 | Waveshare RP2040-Zero | 1 |
 | 1N4148W SOD-123 Diodes | 53 |
 | MX-compatible switches | 53 |
 | MX hotswap sockets | 53 |
-| Stabilizers (PCB-mount) | *see note* |
-| M2 screws | *see build guide* |
-| M2 inserts | *see build guide* |
-| Rubber feet | 4 |
-
-> **Stabilizers:** Required for all keys ≥ 2u. The split spacebar layout uses two 3u stabilizers.
+| Stabilizers (PCB-mount) | 2x3u or 1x6u |
+| M2 screws x 4 mm | 10 |
+| M2 inserts | 8 |
+| Rubber feet 3M SJ5302 (8x8x2) | 4 |
+| Magnets 5x3 | 14 |
+| Magnets 5x1 | 4 |
+| Silicone o-rings 5x2 | 8 |
 
 ---
 
@@ -79,7 +71,7 @@ laika/
 │       └── Laika PCB gerbers.zip         # Ready-to-order gerber files
 └── plate-dxf/
     ├── standart-plate.dxf                # Standard plate for laser cutting / CNC
-    └── extra-plate.dxf                   # Extra plate for laser cutting / CNC
+    └── extra-plate.dxf                   # Extra plate with enlarged stabilizers cutouts / CNC
 ```
 
 ---
@@ -101,22 +93,13 @@ Send `laika-pcb/Production files/Laika PCB gerbers.zip` to your preferred PCB ma
 
 Laika runs on **VIAL** (QMK fork with real-time key remapping — no flashing required for layout changes).
 
-<!-- Add firmware link once available -->
-> Firmware files and flashing instructions — *coming soon*
+https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/laika
 
 **Flashing (RP2040-Zero):**
 1. Hold the BOOT button on the RP2040-Zero while connecting USB.
 2. A drive named `RPI-RP2` will appear.
 3. Drop the `.uf2` firmware file onto that drive.
 4. The keyboard will reboot and be ready to use.
-
----
-
-## License:
-
-This project is released under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)](https://ohwr.org/cern_ohl_s_v2.txt).
-
-You are free to use, study, modify, and distribute the hardware designs, provided that any derivative works are released under the same license and give proper credit.
 
 ---
 
