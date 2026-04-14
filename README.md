@@ -124,6 +124,8 @@ https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/laika
 
 ![photo_2025-11-13_11-15-49 (2)](https://github.com/user-attachments/assets/dda19241-c370-4d5d-925c-4ebb83afbf62)
 ![photo_2025-11-13_11-15-51](https://github.com/user-attachments/assets/98c08180-d9fd-45fa-88c0-a79bf265a11c)
+<img width="2560" height="1919" alt="image" src="https://github.com/user-attachments/assets/bd626f41-ece2-4235-81b7-9ddff9c3d72f" />
+
 ---
 
 *Named after Laika — the first living creature to orbit Earth.*
